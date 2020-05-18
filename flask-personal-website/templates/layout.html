@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Python Flask Testing</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+</head>
+
+<body>
+
+	<header>
+		
+		<div class="container">
+
+			<h1 class="logo">Testing Flask</h1>
+			
+			<nav>			
+				<ul class="menu">
+				    <li><a href="{{ url_for('home') }}">Home</a></li>
+					<li><a href="{{ url_for('about') }}">About</a></li>
+				</ul>				
+			</nav>
+			
+		</div>
+		
+		<div class="container">
+		
+			{%block content%}
+			{%endblock%}
+			
+		</div>
+	
+	</header>
+	
+</body>
+
+</html>
