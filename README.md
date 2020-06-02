@@ -27,10 +27,10 @@ Simple testing of Python & Flask website development. Abandoned project
 
 * needs flask module (pip install flask)
 
-# bookstore catalogue GUI
+# bookstore-database-gui
 
 First experiment with GUI with tkinter module.
 
 * Main script: book_store_gui.py
-* Backend: book_store_database.py
+* Backend: book_store_database.py (uses sqlite3)
 * Database: book_store.db
