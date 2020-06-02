@@ -26,3 +26,11 @@ The dictionary data is in resources/dictionary.json
 Simple testing of Python & Flask website development. Abandoned project
 
 * needs flask module (pip install flask)
+
+# bookstore catalogue GUI
+
+First experiment with GUI with tkinter module.
+
+* Main script: book_store_gui.py
+* Backend: book_store_database.py
+* Database: book_store.db
