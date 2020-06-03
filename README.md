@@ -34,3 +34,24 @@ First experiment with GUI with tkinter module.
 * Main script: book_store_gui.py
 * Backend: book_store_database.py (uses sqlite3)
 * Database: book_store.db
+
+# mobile-app-kivy
+
+2nd attempt for GUI with Python. Testing **Kivy** cross-platform framework building an app that users can login/sign up to and displays a random quote based on their given mood.
+
+* Kivy installation for Python 3.7:
+'''
+pip install kivy
+pip install kivy.deps.glew
+pip install docutils pygments pypiwin32 kivy.deps.sdl2
+'''
+
+* Users login info: files/users.json
+
+* Kivy source GUI: gui.kv
+
+* Quotes: files/*.txt
+The filename corresponds to the user's specified mood.
+
+For Android deployment, install cython, kivy and buildozer on Linux.
+You may use files/kivy-buildozer-installer.sh to install all dependancies.
