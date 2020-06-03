@@ -40,12 +40,11 @@ First experiment with GUI with tkinter module.
 2nd attempt for GUI with Python. Testing **Kivy** cross-platform framework building an app that users can login/sign up to and displays a random quote based on their given mood.
 
 * Kivy installation for Python 3.7:
-'''
+```
 pip install kivy
 pip install kivy.deps.glew
 pip install docutils pygments pypiwin32 kivy.deps.sdl2
-'''
-
+```
 * Users login info: files/users.json
 * Kivy source GUI: files/gui.kv
 * Quotes: files/*.txt
