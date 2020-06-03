@@ -47,9 +47,7 @@ pip install docutils pygments pypiwin32 kivy.deps.sdl2
 '''
 
 * Users login info: files/users.json
-
-* Kivy source GUI: gui.kv
-
+* Kivy source GUI: files/gui.kv
 * Quotes: files/*.txt
 The filename corresponds to the user's specified mood.
 
