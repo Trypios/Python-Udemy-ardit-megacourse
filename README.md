@@ -52,3 +52,22 @@ The filename corresponds to the user's specified mood.
 
 For Android deployment, install cython, kivy and buildozer on Linux.
 You may use files/kivy-buildozer-installer.sh to install all dependancies.
+
+# webcam-motion-detector
+
+Testing **OpenCV** for video capture. The program:
+* Triggers video from PC's default webcam
+* Detects/logs motion
+* Detects faces
+
+Dependancies:
+```
+pip install cv2
+pip install pandas
+pip install bokeh
+```
+
+Files:
+Face detection: files/haarcascade_frontalface_default.xml
+Motion detector log: files/log.csv
+Motion activity graph: files/motion-activity.html
