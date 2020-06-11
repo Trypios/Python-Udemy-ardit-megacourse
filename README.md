@@ -68,6 +68,6 @@ pip install bokeh
 ```
 
 Files:
-Face detection: files/haarcascade_frontalface_default.xml
-Motion detector log: files/log.csv
-Motion activity graph: files/motion-activity.html
+* Face detection: files/haarcascade_frontalface_default.xml
+* Motion detector log: files/log.csv
+* Motion activity graph: files/motion-activity.html
