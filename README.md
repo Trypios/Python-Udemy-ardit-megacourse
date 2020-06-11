@@ -71,3 +71,9 @@ Files:
 * Face detection: files/haarcascade_frontalface_default.xml
 * Motion detector log: files/log.csv
 * Motion activity graph: files/motion-activity.html
+
+# real-estate-webscraping
+
+Testing **BeautifulSoup** for html parsing and scraping.
+The program reads a website's source html code and gathers specified data.
+May not work as expected if said website has been updated since spring 2020.
