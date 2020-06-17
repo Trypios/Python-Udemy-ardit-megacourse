@@ -77,3 +77,11 @@ Files:
 Testing **BeautifulSoup** for html parsing and scraping.
 The program reads a website's source html code and gathers specified data.
 May not work as expected if said website has been updated since spring 2020.
+
+# financial-graph
+
+Testing **pandas_datareader** for financial stock data.
+```
+pip install pandas_datareader
+```
+The program loads Apple's and Google's financial for the last 30 days Then creates, stores and displays a candlestick plot for these data.
